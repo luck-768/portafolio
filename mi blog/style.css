@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    text-shadow:  0px 0px 10px black;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(125, 43, 207);
+}
+
+h3{
+color: rgb(129, 41, 41);
+}
+
+div{
+    margin-left: 10px; margin-right: 10px;
+    line-height: 50px;
+}
+
+body{
+    background-color: darkgray;
+}
+
+
+
+
