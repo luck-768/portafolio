@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+}
+
+div{
+    margin: 5px;
+}
+
+nav{
+    width: auto;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section1{
+margin-left: 100px;
+width: 800px;
+text-align: center;
+}
+
+.section p{
+    text-wrap: balance;
+}
+
+h1{
+    text-align: center;
+}
+
+

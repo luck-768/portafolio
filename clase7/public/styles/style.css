@@ -1,0 +1,46 @@
+section h1{
+    color: ghostwhite;
+}
+
+#Navegacion{
+    background-color: gray;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cajas{
+   
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+    
+
+    div {
+        display: flex;
+        background-color: white;
+    }
+    .cuenta {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .perfil {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .perfil img {
+        max-width: 100%;
+        height: auto;
+    }
+    
