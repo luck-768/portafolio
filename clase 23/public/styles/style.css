@@ -1,0 +1,15 @@
+.flex-card{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.flex-card{
+    display: grid;
+    grid-template-columns: repeat(3,200px );
+    gap:20px;
+    grid-template-rows:repeat(2,200px) ;
+}
